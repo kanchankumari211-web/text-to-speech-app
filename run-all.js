@@ -1,8 +1,8 @@
 const { spawn } = require('child_process');
 const path = require('path');
 
-const serverDir = path.join(__dirname, 'text-to-speech/server');
-const clientDir = path.join(__dirname, 'text-to-speech/client');
+const serverDir = path.join(__dirname, 'server');
+const clientDir = path.join(__dirname, 'client');
 
 console.log('🚀 Starting Text-to-Speech Backend & Frontend...\n');
 
