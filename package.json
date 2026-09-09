@@ -1,0 +1,11 @@
+{
+  "name": "text-to-speech-app-root",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev:server": "cd text-to-speech/server && npm start",
+    "dev:client": "cd text-to-speech/client && npm run dev",
+    "dev": "npm run start",
+    "start": "node run-all.js"
+  }
+}
